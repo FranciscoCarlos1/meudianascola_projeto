@@ -25,7 +25,9 @@ SSH keys provide the most secure authentication without needing to enter passwor
 # Generate SSH key
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
-# Start SSH agent
+# Start SSH agent (may require enabling the service first)
+# If the service is not running, enable it:
+# Get-Service ssh-agent | Set-Service -StartupType Manual
 Start-Service ssh-agent
 
 # Add key to SSH agent

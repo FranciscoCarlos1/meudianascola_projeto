@@ -2,7 +2,7 @@
 
 ## 🚨 Exposed Credential Alert
 
-**Date**: December 11, 2025  
+**Date**: December 11, 2024  
 **Severity**: CRITICAL  
 **Status**: Mitigated
 
@@ -28,7 +28,7 @@ This token was **exposed in the problem statement** and should be considered **c
 
 ### 1. Revoke the Exposed Token (URGENT)
 
-**The token `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` must be revoked immediately.**
+**The token `github_pat_11AWJU3UY0...` (ending in `...5W9Mvte9`) must be revoked immediately.**
 
 Steps to revoke:
 1. Go to https://github.com/settings/tokens
